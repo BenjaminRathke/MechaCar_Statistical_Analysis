@@ -13,7 +13,13 @@ This regression model is able to predict mpg of MechaCar prototypes effectively.
 
 ## Summary Statistics on Suspension Coils
 
-As a whole, the variance of suspension coils does not exceed 100 psi; however, while lot 1 and lot 2 are well within the 100 psi requirement, lot 3 exceeds by over 70 psi.  Lot 3 should be more closely evaluated to determine the reason for exceeding the 100 psi variance threshold.
+As a whole, the variance of suspension coils does not exceed 100 psi.  
+
+* ![TotSummary](images/total_summary.PNG)  
+
+however, while lot 1 and lot 2 are well within the 100 psi requirement, lot 3 exceeds by over 70 psi.  Lot 3 should be more closely evaluated to determine the reason for exceeding the 100 psi variance threshold.
+
+* ![LotSummary](images/lot_summary.PNG)  
 
 ## T-Tests on Suspension Coils
 * When evaluating p-value of a t-test of all lots to the population data, as expected, the p value is 1.  This is because the two means are identical and ultimately contain the exact same data.  
