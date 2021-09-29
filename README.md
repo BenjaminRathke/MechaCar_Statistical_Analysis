@@ -2,8 +2,8 @@
 
 ## Linear Regression to Predict MPG  
 ### Variables Providing Non-random Variance to MPG Values  
-Length (p-value 2.60e-12)
-Ground Clearance (p-value 5.21e-08)
+* Length (p-value 2.60e-12)  
+* Ground Clearance (p-value 5.21e-08)  
 
 ### Slope of Multiple Linear Regression  
 The slope of the multiple linear regression would be non-zero as the p-value is significantly smaller than .05.  The p-value is 5.35e-11, or 0.00000000000535.
